@@ -102,7 +102,7 @@ def main():
             exit()
     elif option == 1:
         pwd = str(input('Give me your password -> '))
-        answer = input('Do you want to download list? (y/N) -> ')
+        answer = input('Do you want to download dictionary? (y/N) -> ')
         print ('\n')
         try:
             if answer == 'y':
